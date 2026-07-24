@@ -5,9 +5,12 @@ build/
 dist/
 wheels/
 *.egg-info
+.pytest_cache/
+.ruff_cache/
 
 # Virtual environments
 .venv
+
+# Editors / OS
 .idea
 **/.DS_Store
-backend/storage/*
